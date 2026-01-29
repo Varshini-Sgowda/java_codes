@@ -1,9 +1,8 @@
-package Day2;
+import java.util.Scanner;
+public class code4{
+    public static void main(String[] args){
 
-public class code4 {
-	public static void main(String[] args) {
-		int a=03,b=04,c=05,d=06;
-		System.out.println("a=" + a+ "       b= " + b+ " c="+c+ "\td\n="+d);
-	}
-
+        char x='A';
+        System.out.println((double-)x);
+    }
 }
