@@ -1,6 +1,6 @@
  class Animal{
     void human(){
-        System.out.println("hello");
+        System.out.println("Humans can walk");
     }
 }
 class Character extends Animal{
@@ -8,7 +8,7 @@ class Character extends Animal{
         super();
     }
         void features(){
-        System.out.println("hi");
+        System.out.println("i can dance");
     }
 }
 class code5{
@@ -17,4 +17,5 @@ Character C1 = new Character();
 C1.features();
 C1.human();
     }
+
 }
