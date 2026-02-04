@@ -13,8 +13,9 @@ public class hw9{
         mobile i1=new mobile();
         i1.brand="iphone";
         i1.batterypercentage=81;
-        i1.charge(45);
+        i1.charge(15);
         i1.usebattery(25);
         System.out.println(i1.batterypercentage);
     }
+
 }
